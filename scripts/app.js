@@ -1,3 +1,6 @@
-requirejs([],function(){
-    alert('hello world');
+define(function(require){
+    var x = require('jquery');
+    $(function(){
+        alert('hello world');
+    });
 })
